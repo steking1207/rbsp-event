@@ -1,0 +1,36 @@
+body {
+  background: #ede5c8;
+  color: #000;
+  font-size: 1.25rem; }
+
+.bg-title {
+  background-color: #e6aa18; }
+
+@media (max-width: 1199.98px) {
+  .navbar .navbar-brand .logo {
+    max-height: 60px; } }
+
+.navbar-nav {
+  font-size: 1.25rem; }
+.navbar-nav li {
+  border-left: 1px solid #000; }
+.navbar-nav li:first-child, .navbar-nav li:only-child {
+  border-left: none; }
+.navbar-nav .nav-link {
+  color: #000 !important; }
+
+#rule .content {
+  background-color: #007b82;
+  color: #fff; }
+
+#notice .content {
+  color: #007b82; }
+
+.text-warning {
+  color: #e4d217 !important; }
+
+.text-success {
+  color: #007b82 !important; }
+
+.dot:before {
+  background: #e6a917; }
