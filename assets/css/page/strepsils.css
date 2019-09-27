@@ -16,6 +16,10 @@ body {
   border-left: 1px solid #000; }
 .navbar-nav li:first-child, .navbar-nav li:only-child {
   border-left: none; }
+@media (max-width: 1199.98px) {
+  .navbar-nav li {
+    border-left: none;
+    border-top: 1px solid #f8f9fa; } }
 .navbar-nav .nav-link {
   color: #000 !important; }
 

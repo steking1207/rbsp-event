@@ -13,6 +13,12 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none; }
 
+.kv {
+  margin-top: 100px; }
+@media (max-width: 1199.98px) {
+  .kv {
+    margin-top: 75px; } }
+
 #header .h3 {
   text-shadow: 0 0 10px #FFFFFF; }
 
