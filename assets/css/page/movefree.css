@@ -1,0 +1,10 @@
+body {
+  background: #fdf2d9;
+  color: #000;
+  font-size: 1.25rem; }
+
+.bg-title {
+  background-color: #a01d1b; }
+
+#list {
+  background: url(../../img/event/movefree/bg-list.png); }
