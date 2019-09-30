@@ -163,50 +163,50 @@
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">真實姓名</label>
                         <div class="col-12 col-md-10">
-                            <input type="text" class="form-control form-control-lg" value="">
+                            <input type="text" class="form-control form-control-lg" value="" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">身分證號</label>
                         <div class="col-12 col-md-10">
-                            <input type="text" class="form-control form-control-lg" value="" placeholder="身分證號後四碼">
+                            <input type="text" class="form-control form-control-lg" value="" placeholder="身分證號後四碼" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">手機電話</label>
                         <div class="col-12 col-md-10">
-                            <input type="tel" class="form-control form-control-lg" value="" placeholder="">
+                            <input type="tel" class="form-control form-control-lg" value="" placeholder="" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">電子信箱</label>
                         <div class="col-12 col-md-10">
-                            <input type="email" class="form-control form-control-lg" value="" placeholder="">
+                            <input type="email" class="form-control form-control-lg" value="" placeholder="" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">發票號碼</label>
                         <div class="col-12 col-md-10">
-                            <input type="text" class="form-control form-control-lg" value="" placeholder="範例:AB12345678">
+                            <input type="text" class="form-control form-control-lg" value="" placeholder="範例:AB12345678" required>
                             <small class="form-text text-muted">(規則:2碼英文字母+8碼數字,共10碼 )</small>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">發票日期</label>
                         <div class="col-12 col-md-10">
-                            <input type="text" class="form-control form-control-lg" value="" placeholder="範例:20190926">
+                            <input type="text" class="form-control form-control-lg" value="" placeholder="範例:20190926" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">發票金額</label>
                         <div class="col-12 col-md-10">
-                            <input type="text" class="form-control form-control-lg" value="" placeholder="">
+                            <input type="text" class="form-control form-control-lg" value="" placeholder="" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">購買通路</label>
                         <div class="col-12 col-md-10">
-                            <select class="custom-select custom-select-lg">
+                            <select class="custom-select custom-select-lg" required>
                                 <option selected>7-11便利商店</option>
                                 <option value="">Family Mart全家便利商店</option>
                                 <option value="">Hi-Life萊爾富便利商店</option>
@@ -220,9 +220,18 @@
                         <label class="col-12 col-md-2 col-form-label col-form-label-lg text-left text-md-right">發票上傳</label>
                         <div class="col-12 col-md-10">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="customFile" lang="zh-tw">
+                                <input type="file" class="custom-file-input" id="customFile" lang="zh-tw" required>
                                 <label class="custom-file-label" for="customFile">格式:jpg,pdf,png</label>
                             </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-warning">
+                        <p>消費者請於輸入個人資料後再次確認輸入資料無誤。若因資料不正確造成無法聯繫及寄送，或領獎時無法提供輸入之發票，則視為自動棄權，主辦單位不負責變更中獎者聯絡地址或中獎者姓名之責任。</p>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck">
+                            <label class="custom-control-label" for="customCheck">
+                                我已閱讀過 <a href="">蒐集個人資料告知</a>及<a href="">本活動注意事項</a>並同意所有相關內容。
+                            </label>
                         </div>
                     </div>
                     <div class="text-center">
