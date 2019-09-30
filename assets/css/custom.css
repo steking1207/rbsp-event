@@ -17,10 +17,13 @@ select {
   margin-top: 100px; }
 @media (max-width: 1199.98px) {
   .kv {
-    margin-top: 75px; } }
+    margin-top: 60px; } }
 
 #header .h3 {
   text-shadow: 0 0 10px #FFFFFF; }
+@media (max-width: 1199.98px) {
+  #header .logo {
+    max-height: 100px; } }
 
 .font-small {
   font-size: 0.8rem; }
