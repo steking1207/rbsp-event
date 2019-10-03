@@ -1,0 +1,59 @@
+body {
+  background: #efeff1;
+  color: #00498c;
+  font-size: 1.25rem; }
+
+.header {
+  background-color: #00498c; }
+
+.kv {
+  margin-top: 75px; }
+@media (max-width: 1199.98px) {
+  .kv {
+    margin-top: 60px; } }
+
+.bg-title {
+  margin: 0;
+  padding: 10px 0 30px;
+  background: url("../../img/event/durex/bg-title.png") center 0 no-repeat;
+  background-size: contain;
+  color: #fff; }
+@media (max-width: 1199.98px) {
+  .bg-title {
+    background-size: cover; } }
+
+.bg-primary {
+  background-color: #00498c !important;
+  color: #ffe800; }
+
+.navbar-nav li {
+  border-left-color: #fff; }
+@media (max-width: 1199.98px) {
+  .navbar-nav li {
+    border-top-color: #f8f9fa; } }
+.navbar-nav .nav-link {
+  color: #fff !important; }
+
+.text-danger {
+  color: #dd0012 !important; }
+
+.bg-stripes {
+  width: 100%;
+  height: 50px; }
+
+.icon-star-blue {
+  width: 21px;
+  height: 22px;
+  background-image: url("../../img/event/durex/icon-star-blue.png"); }
+
+.icon-star-red {
+  width: 21px;
+  height: 22px;
+  background-image: url("../../img/event/durex/icon-star-red.png"); }
+
+#rule {
+  background: url("../../img/event/durex/bg-rule.png") center 0 no-repeat;
+  background-size: cover; }
+
+#invoice {
+  background: #ede5c9; }

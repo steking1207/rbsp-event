@@ -13,12 +13,6 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none; }
 
-.kv {
-  margin-top: 100px; }
-@media (max-width: 1199.98px) {
-  .kv {
-    margin-top: 60px; } }
-
 #header .h3 {
   text-shadow: 0 0 10px #FFFFFF; }
 @media (max-width: 1199.98px) {
@@ -37,6 +31,42 @@ select {
   display: block;
   content: '';
   background: #ccc; }
+
+.navbar .navbar-brand .logo {
+  max-height: 60px; }
+@media (max-width: 1199.98px) {
+  .navbar .navbar-brand .logo {
+    max-height: 40px; } }
+
+.navbar-nav {
+  font-size: 1.25rem; }
+.navbar-nav li {
+  border-left: 1px solid #000; }
+.navbar-nav li:first-child, .navbar-nav li:only-child {
+  border-left: none; }
+@media (max-width: 1199.98px) {
+  .navbar-nav li {
+    border-left: none;
+    border-top: 1px solid #f8f9fa; } }
+.navbar-nav .nav-link {
+  color: #000 !important;
+  font-size: 1.5rem; }
+
+.btn-fb img {
+  max-height: 40px; }
+
+[class^="icon-"], [class*="icon-"] {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .bg-pink {
   background-color: #db3885; }
