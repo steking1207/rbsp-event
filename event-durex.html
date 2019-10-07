@@ -43,16 +43,16 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link p-3 py-lg-0 anchor" href="#rule">活動辦法</a>
+                            <a class="nav-link p-3 py-lg-0 anchor" data-toggle="collapse" data-target=".navbar-collapse.show" href="#rule">活動辦法</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link p-3 py-lg-0" href="event-durex-invoice.html">發票登錄</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-3 py-lg-0 anchor" href="#notice">注意事項</a>
+                            <a class="nav-link p-3 py-lg-0 anchor" data-toggle="collapse" data-target=".navbar-collapse.show" href="#notice">注意事項</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-3 py-lg-0 anchor" href="event-durex-list.html">中獎名單</a>
+                            <a class="nav-link p-3 py-lg-0" href="event-durex-list.html">中獎名單</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link p-3 py-lg-0" href="mailto:event@rbsp.com.tw">聯絡我們</a>
@@ -70,9 +70,9 @@
     </div>
 
     <!-- 活動辦法 -->
-    <div class="container-fluid py-10 py-lg-20" id="rule">
+    <div class="container-fluid py-20" id="rule">
         <div class="container">
-            <div class="bg-title text-center h2 font-weight-bold">
+            <div class="bg-title text-center h3 font-weight-bold">
                 活動辦法
             </div>
             <div class="content px-0 p-lg-5">
@@ -156,9 +156,9 @@
 
     <!-- 注意事項 -->
     <img class="bg-stripes" src="assets/img/event/durex/bg-stripes.png" alt="">
-    <div class="container-fluid py-10 py-lg-20" id="notice">
+    <div class="container-fluid py-20" id="notice">
         <div class="container" id="notice">
-            <div class="bg-title text-center h2 font-weight-bold">
+            <div class="bg-title text-center h3 font-weight-bold">
                 注意事項
             </div>
             <div class="content py-5">
@@ -194,6 +194,11 @@
     <!-- global -->
     <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+    </script>
 
 </body>
 </html>
